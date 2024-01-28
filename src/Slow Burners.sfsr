@@ -1,0 +1,219 @@
+{
+    "name": "Slow Burners",
+    "description": "Meats that pair well with slow-starting characters who focus on scavenging and improvisational play. Progresses from pistol-wielding civilians to a well-equipped and armoured militia over 4 rounds.",
+    "category": "Safehouse",
+    "teamID": 1,
+    "levels": [
+        {
+            "name":                 "Level 1 UNAWARE",
+            "enemiesTotal":         3,
+            "enemySpawnTimer":      20,
+            "infiniteEnemies":      1,
+            "infiniteSquadEnemies": 1,
+
+            "guardCount":           2,
+            "guardPool": {
+                "sosigEnemyID": [
+					400, 400, 400, 400,
+					402, 402, 402,
+					401, 401,
+					403
+                ],
+                "customPool": []
+            },
+
+            "sniperCount":          0,
+            "sniperPool": {
+            	"sosigEnemyID": [
+
+                ],
+                "customPool": []
+            },
+            "minPatrolSize":        3,
+            "patrolPool": {
+                "sosigEnemyID": [
+					801, 801, 801, 801,
+					803, 803, 803,
+					804, 804,
+					802
+                ],
+                "customPool": []
+            },
+
+            "squadTeamRandomized":  1,
+            "squadCount":           3,
+            "squadSizeMin":         1,
+            "squadSizeMax":         1,
+            "squadBehaviour":       2,
+            "squadPool": {
+                "sosigEnemyID": [
+                	801, 801,
+                	803
+                ],
+                "customPool": []
+            }
+        },
+        {
+            "name":                 "Level 2 REGROUPING",
+            "enemiesTotal":         4,
+            "enemySpawnTimer":      22,
+            "infiniteEnemies":      1,
+            "infiniteSquadEnemies": 1,
+
+            "guardCount":           2,
+            "guardPool": {
+                "sosigEnemyID": [
+					100, 100, 100, 100,
+					101, 101, 101,
+					104, 104,
+					103
+                ],
+                "customPool": []
+            },
+
+            "sniperCount":          0,
+            "sniperPool": {
+            	"sosigEnemyID": [
+
+                ],
+                "customPool": []
+            },
+
+            "minPatrolSize":        2,
+            "patrolPool": {
+                "sosigEnemyID": [
+					401, 401, 401,
+					402, 402,
+					403
+                ],
+                "customPool": []
+            },
+
+            "squadTeamRandomized":  1,
+            "squadCount":           3,
+            "squadSizeMin":         1,
+            "squadSizeMax":         2,
+            "squadBehaviour":       1,
+            "squadPool": {
+                "sosigEnemyID": [
+					400, 400,
+					404, 404,
+					402, 402,
+					408
+                ],
+                "customPool": []
+            }
+        },
+        {
+            "name":                 "Level 3 PLANNING",
+            "enemiesTotal":         5,
+            "enemySpawnTimer":      24,
+            "infiniteEnemies":      1,
+            "infiniteSquadEnemies": 1,
+
+            "guardCount":           2,
+            "guardPool": {
+                "sosigEnemyID": [
+					1305, 1305, 1305, 1305,
+					1302, 1302, 1302,
+					1303, 1303,
+					1503
+                ],
+                "customPool": []
+            },
+
+            "sniperCount":          0,
+            "sniperPool": {
+            	"sosigEnemyID": [
+
+                ],
+                "customPool": []
+            },
+            "minPatrolSize":        2,
+            "patrolPool": {
+                "sosigEnemyID": [
+					103, 103, 103, 103,
+					106, 106, 106,
+					104, 104,
+					109
+                ],
+                "customPool": []
+            },
+
+            "squadTeamRandomized":  1,
+            "squadCount":           4,
+            "squadSizeMin":         1,
+            "squadSizeMax":         2,
+            "squadBehaviour":       2,
+            "squadPool": {
+                "sosigEnemyID": [
+                	110, 110, 110, 110,
+					105, 105, 105,
+					106, 106,
+					103
+                ],
+                "customPool": []
+            }
+        }
+    ],
+    "endless": [
+		{
+            "name":                 "Level 4 ASSAULT",
+            "enemiesTotal":         6,
+            "enemySpawnTimer":      26,
+            "infiniteEnemies":      1,
+            "infiniteSquadEnemies": 1,
+
+            "guardCount":           2,
+            "guardPool": {
+                "sosigEnemyID": [
+                	1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505, 1505,
+					1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512, 1512,
+					1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514, 1514,
+					1513, 1513, 1513, 1513, 1513, 1513, 1513, 1513, 1513, 1513,
+					1515, 1515, 1515, 1515, 1515,
+					1518, 1518, 1518, 1518,
+					1526
+                ],
+                "customPool": []
+            },
+
+            "sniperCount":          0,
+            "sniperPool": {
+            	"sosigEnemyID": [
+
+                ],
+                "customPool": []
+            },
+
+            "minPatrolSize":        2,
+            "patrolPool": {
+                "sosigEnemyID": [
+					1502, 1502, 1502, 1502, 1502, 1502,
+					1501, 1501, 1501, 1501, 1501, 1501,
+					1503, 1503, 1503, 1503,
+					1303, 1303,
+					1302,
+					1512
+                ],
+                "customPool": []
+            },
+
+            "squadTeamRandomized":  1,
+            "squadCount":           5,
+            "squadSizeMin":         2,
+            "squadSizeMax":         2,
+            "squadBehaviour":       2,
+            "squadPool": {
+                "sosigEnemyID": [
+					1304, 1304, 1304, 1304, 1304, 1304, 1304, 1304, 1304,
+					1305, 1305, 1305, 1305, 1305, 1305, 1305,
+					1302, 1302,
+					1303,
+					1503
+                ],
+                "customPool": []
+            }
+        }
+    ]
+}

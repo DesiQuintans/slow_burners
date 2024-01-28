@@ -1,0 +1,10 @@
+{
+    "name": "SR_Slow_Burners",
+  	"author": "Desi",
+	"version_number": "{{ ver }}",
+	"website_url": "https://github.com/DesiQuintans/slow_burners",
+	"description": "A SupplyRaid faction that works well with slow-starting characters who focus on scavenging and improvisational play. Over 4 rounds, they progress from pistol-wielding civilians to a well-equipped and armoured force.",
+	"dependencies": [
+	    "Packer-SupplyRaid-1.0.5"
+	]
+}

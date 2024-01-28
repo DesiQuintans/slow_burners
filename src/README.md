@@ -1,4 +1,4 @@
-# SR_Slow_Burners v3.1.0
+# SR_Slow_Burners {{ ver }}
 
 The Slow Burners is a [SupplyRaid](https://h3vr.thunderstore.io/package/Packer/SupplyRaid/) faction that works well with slow-starting characters who focus on scavenging and improvisational play. Over 4 rounds, they progress from pistol-wielding civilians to a well-equipped and armoured force.
 
